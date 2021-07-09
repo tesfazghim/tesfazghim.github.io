@@ -1,3 +1,43 @@
 body {
-    background-color: #f5d9d5;
+    background-color: #faf3dd;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    background-color: bisque;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Lobster', cursive;
+    color: red;
+}
+
+.navbar-brand:hover {
+    /* background-color: blue; */
+    color: blue;
+}
+
+#mainNavbar .nav-link:hover {
+    color: blue;
+}
+
+#mainNavbar .nav-link {
+    padding-left: 1.5rem;
+}
+
+#mainNavbar .socialLinks {
+    font-size: 1.5rem;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
 }
