@@ -1,11 +1,11 @@
 body {
-    background-color: #faf3dd;
+    background-color: #f3f3f3;
     font-family: 'Ubuntu', sans-serif;
 }
 
 nav {
     /* background-color: bisque; */
-    background-color: #fefc3e;
+    background-color: #ebebe8;
 }
 
 .navbar-brand {
@@ -41,4 +41,8 @@ nav {
     justify-content: center;
     align-items: center;
     margin-bottom: 2.5rem;
+}
+
+img {
+    border-radius: 50%;
 }
