@@ -43,6 +43,10 @@ nav {
     margin-bottom: 2.5rem;
 }
 
-img {
+.profile {
     border-radius: 50%;
+}
+
+.schedule {
+    width: 30%;
 }
