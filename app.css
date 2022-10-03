@@ -50,3 +50,15 @@ nav {
 .schedule {
     width: 30%;
 }
+
+.greeting {
+    font-size: 100px;
+}
+
+.intro {
+    padding-left: 2.5em;
+}
+
+.javafx {
+    width: 70%;
+}
