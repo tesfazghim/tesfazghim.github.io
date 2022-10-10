@@ -5,7 +5,7 @@ body {
 
 nav {
     /* background-color: bisque; */
-    background-color: #ebebe8;
+    background-color: #cdcdc9;
 }
 
 .navbar-brand {
@@ -45,10 +45,7 @@ nav {
 
 .profile {
     border-radius: 50%;
-}
-
-.schedule {
-    width: 30%;
+    text-align: center;
 }
 
 .greeting {
@@ -59,6 +56,24 @@ nav {
     padding-left: 2.5em;
 }
 
-.javafx {
-    width: 70%;
+h4 {
+
+    text-align: center;
+}
+
+.profile-items {
+    display: flexbox;
+}
+
+.card {
+    width: 18rem;
+}
+
+.projects {
+    text-align: center;
+
+}
+
+#projects {
+    padding-bottom: 20px;
 }
