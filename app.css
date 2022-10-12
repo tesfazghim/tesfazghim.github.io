@@ -1,3 +1,11 @@
+:root {
+    --size: clamp(10rem, 1rem+40vmin, 30rem);
+    --gap: calc(var(--size) / 14);
+    --duration: 60s;
+    --scroll-start: 0;
+    --scroll-end: calc(-100% - var(--gap));
+}
+
 body {
     background-color: #f3f3f3;
     font-family: 'Ubuntu', sans-serif;
@@ -24,12 +32,21 @@ nav {
     color: blue;
 }
 
-#mainNavbar .nav-link {
+/* #mainNavbar .nav-link {
     padding-left: 1.5rem;
-}
+} */
 
 #mainNavbar .socialLinks {
     font-size: 1.5rem;
+    width: 35px;
+}
+
+.profile-icons {
+    width: 30px;
+}
+
+#mainNavbar .socialLinks:hover {
+    color: blue;
 }
 
 #mainNavbar {
@@ -41,11 +58,6 @@ nav {
     justify-content: center;
     align-items: center;
     margin-bottom: 2.5rem;
-}
-
-.profile {
-    border-radius: 50%;
-    text-align: center;
 }
 
 .greeting {
@@ -61,8 +73,32 @@ h4 {
     text-align: center;
 }
 
+.profile-head {
+    padding-top: 50px;
+    /* display: flex; */
+    overflow: hidden;
+    gap: var(--gap);
+}
+
 .profile-items {
-    display: flexbox;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation: scroll-x var(60s) linear infinite;
+}
+
+.profile {
+    border-radius: 50%;
+    text-align: center;
+}
+
+#profile {
+    text-align: center;
+}
+
+
+.profile-h2 {
+    padding-bottom: 20px;
 }
 
 .card {
@@ -76,4 +112,16 @@ h4 {
 
 #projects {
     padding-bottom: 20px;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.licence {
+    float: right;
+}
+
+.card-img-top {
+    padding-top: 20px;
 }
